@@ -9,20 +9,20 @@ In
 
 ```js
 var bar = {
-application: {
-ajax: {
-flag: true,
-number: 73
-},
-gui: {
-flag: false,
-number: 3.14159
-},
-properties: {
-flag: null,
-number: 0
-}
-}
+  application: {
+    ajax: {
+      flag: true,
+      number: 73
+    },
+    gui: {
+      flag: false,
+      number: 3.14159
+    },
+    properties: {
+      flag: null,
+      number: 0
+    }
+  }
 };
 ```
 
@@ -30,12 +30,12 @@ Out
 
 ```js
 {
-"application.ajax.flag": true,
-"application.ajax.number": 73,
-"application.gui.flag": false,
-"application.gui.number": 3.14159,
-"application.properties.flag": null,
-"application.properties.number": 0
+  "application.ajax.flag": true,
+  "application.ajax.number": 73,
+  "application.gui.flag": false,
+  "application.gui.number": 3.14159,
+  "application.properties.flag": null,
+  "application.properties.number": 0
 }
 ```
 
